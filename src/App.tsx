@@ -30,7 +30,7 @@ const App = () => {
 				</p>
 				<p>
 					For fast responses, reach out{" "}
-					<a href={`mailto:${email}`} target="_blank">
+					<a href={email} target="_blank">
 						via email
 					</a>{" "}
 					or{" "}
@@ -52,7 +52,7 @@ const App = () => {
 						<a href={linkedin} className="fart-button" target="_blank">
 							LinkedIn<small>↗</small>
 						</a>
-						<a href={`mailto:${email}`} className="fart-button" target="_blank">
+						<a href={email} className="fart-button" target="_blank">
 							Email<small>↗</small>
 						</a>
 					</>
